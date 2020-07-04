@@ -13,13 +13,20 @@ padding: 0;
 }
 body
 {
-font-family: 'Raleway';
+font-family:"Times New Roman";
 }
 .App
 {
 display: flex;
 width: 100vw;
 min-height: 100vh;
+}
+.profilepic
+{
+  border-radius: 50%;
+  width: 150px;
+  margin: 10px;
+  height: 150px;
 }
 /* .condiv class is for the right side content container*/
 .condiv
@@ -45,7 +52,7 @@ nav
 padding:60px 30px 0px 30px ;
 flex:var(--sidebar-flex);
 background: rgb(238,103,143);
-background: linear-gradient(180deg, rgba(238,103,143,1) 50%, rgba(132,124,252,1) 80%);
+background: linear-gradient(180deg, rgb(10, 10, 10) 50%, rgb(85, 85, 85) 80%);
 }
 
 nav ul
@@ -62,6 +69,10 @@ nav ul li
   margin:40px;
 }
 
+a{
+  text-decoration: none;
+  color:white;
+}
 .active
 {
   font-weight: bolder;
