@@ -7,7 +7,6 @@ class Contact extends Component {
                 <h1 className="subtopic">Contact Me</h1>
                 <h3>Email  :   gladysyyleng@gmail.com</h3>
                 <h3>Tel Number   :   +16477193971</h3>
-                <Social />
             </div>
         )
     }

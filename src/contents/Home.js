@@ -10,7 +10,6 @@ class Home extends Component {
             <div className="condiv-home" >
                 <img src={profilepic} className="profilepic"></img><br/>
                 <ReactTypingEffect className="typingeffect" text={['I am Yin Yuen Leng', 'I am a software developer']} speed={300} eraseDelay={100} />
-                <Social />
             </div>
         )
     }

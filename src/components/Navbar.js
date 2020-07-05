@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Navitem from './Navitem';
 import Profilepicture from '../contents/Profilepicture';
+import Social from './Social';
 
 class Navbar extends Component {
     constructor(props)
@@ -29,6 +30,7 @@ class Navbar extends Component {
             <Navitem item="Education" tolink="/education"  activec={this.activeitem}></Navitem>
             <Navitem item="Skills" tolink="/skills"  activec={this.activeitem}></Navitem>
             <Navitem item="Contact" tolink="/contact"  activec={this.activeitem}></Navitem>
+            <Social/>
             </ul>
             </nav>
             )

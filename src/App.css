@@ -13,7 +13,7 @@ padding: 0;
 }
 body
 {
-font-family:"Times New Roman";
+font-family:"Helvetica";
 }
 .App
 {
@@ -25,8 +25,7 @@ min-height: 100vh;
 {
   border-radius: 50%;
   width: 150px;
-  margin: 10px;
-  height: 150px;
+  height: 170px;
 }
 /* .condiv class is for the right side content container*/
 .condiv
@@ -49,10 +48,9 @@ align-items: flex;
 }
 nav
 {
-padding:60px 30px 0px 30px ;
+padding:30px 30px 0px 30px ;
 flex:var(--sidebar-flex);
-background: rgb(238,103,143);
-background: linear-gradient(180deg, rgb(10, 10, 10) 50%, rgb(85, 85, 85) 80%);
+background:  rgb(10, 10, 10) ;
 }
 
 nav ul
@@ -66,24 +64,33 @@ nav ul
 
 nav ul li
 {
-  margin:40px;
+  margin:20px 0px 0px 0px;
+  font-size: 18px;
+  text-transform: uppercase;
 }
 
 a{
   text-decoration: none;
   color:white;
 }
+a:hover{
+ color:rgb(248, 248, 186);
+}
 .active
 {
-  font-weight: bolder;
+  font-weight: 900;
+
 }
 
 .social
 {
-position: absolute;
-margin-top: 20px;
-display: flex;
-bottom: 60px;
+  margin-top: 20px;
+  display: flex;
+  bottom: 60px;
+  flex-direction: row;
+  justify-content: flex-end;
+  position:absolute;
+  padding-left: 30px;
 }
 
 .social i
@@ -91,6 +98,7 @@ bottom: 60px;
 padding-right: 30px;
 font-size: 25px;
 color: #9a9b9c;
+
 }
 
 .social i:hover
@@ -123,3 +131,26 @@ color: #1b1d20;
 background-color: #ffffff;
 box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
+.navName{
+  font-size:25px;
+  font-family: "Palatino";
+  font-weight: bold;
+  white-space: nowrap;
+  margin: 10px;
+}
+hr{
+  margin-top:15px;
+  margin-bottom: 15px;
+  height:1px;
+  border:none;
+  background-color: yellow;
+  width:100%;
+
+}
+.condiv-profile{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
