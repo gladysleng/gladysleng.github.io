@@ -3,12 +3,9 @@ class About extends Component {
     render() {
         return (
             <div className="condiv">
-                <h1 className="subtopic">About Me</h1>
-                <h4>Hey there,</h4>
-                <h1>I'm Yin Yuen Leng </h1>
-                <h3>New Graduate 2020 <u> Software Developer</u> | UI/UX <u>Designer</u></h3>
+                <h1 className="subtopic" >About Me</h1>
                 <br></br>
-                <p>
+                <p className="about">
                     I came to Canada to pursue my Computer Science degreee in 2015, at Carleton
                     University in Ottawa. I started my first programming course with absolute zero
                     knowledge in programming. At the begining of my journey in learning about the world
@@ -18,7 +15,7 @@ class About extends Component {
                     I have learned that a successful programmer is not about how clean the code is or being expert
                     at different languages, but the way the programmer thinks and approaches a problem is far more critical.
                 </p>
-                <p>
+                <p className="about">
                     As the world of teachnology keeps revolving, I took every opportunities to attend tech related
                     conferences and hackathons to learn from other professionals and broaden my knowledge.I'm amazed
                     at the positive impact of technology in our everyday life and how coding influence the world.

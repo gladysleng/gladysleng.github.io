@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import ReactTypingEffect from 'react-typing-effect';
-import Social from '../components/Social';
 import Typical from 'react-typical';
 import YinResume from '../YinResume.pdf';
 import styled from "styled-components";
