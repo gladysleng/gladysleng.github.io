@@ -37,7 +37,17 @@ display: flex;
 flex-direction: column;
 align-items: flex;
 }
-
+.skills{
+  padding: 100px ;
+  background-image: url(./img/homeImage2.png) ;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  flex:var(--condiv-flex);
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
 .condiv-home{
   padding: 100px ;
   background-image: url(./img/homeImage1.png) ;
@@ -56,6 +66,12 @@ align-items: flex;
   font-weight:900;
   margin-top: 30px;
   min-height: 30px;
+}
+.contact{
+  background-image: url(./img/connectBackground.png) ;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 nav
 {
@@ -95,18 +111,18 @@ a:hover{
 
 .social
 {
-  margin-top: 20px;
+
   display: flex;
   bottom: 60px;
   flex-direction: row;
-  justify-content: flex-end;
-  position:absolute;
-  left:6%;
+  justify-content: center;
+  margin:10px;
+  
 }
 
 .social i
 {
-padding-right: 30px;
+padding-right: 50px;
 font-size: 25px;
 color: #9a9b9c;
 
@@ -114,7 +130,7 @@ color: #9a9b9c;
 
 .social i:hover
 {
-color: rgb(248, 248, 186);
+color: rgb(0, 0, 0);
 }
 
 .subtopic
@@ -138,12 +154,16 @@ margin: 10px;
 border:0px solid #9a9b9c;
 display: flex;
 margin:30px 0px 30px 0px;
+width:250px;
+
+
 }
 .widecard:hover
 {
 color: #1b1d20;
 background-color: #ffffff;
 box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
 }
 .navName{
   font-size:25px;
@@ -170,7 +190,7 @@ hr{
 .about{
   font-family: "Quicksand", Arial, sans-serif;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 1.8;
   color: rgba(0, 0, 0, 0.7);
 }
@@ -179,5 +199,4 @@ hr{
   padding-top: 25%;
   text-align: center;
   width: 100%;
-
 }

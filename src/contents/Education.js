@@ -72,7 +72,7 @@ class Education extends Component {
                         <h3 className="vertical-timeline-element-title">International Exchange Student </h3>
                         <h4 className="vertical-timeline-element-subtitle"> Grade 12 diploma </h4>
                         <p className="about">
-                            Participated in an student exchange program from Malaysia to Yellowknife,Canada
+                            Participated in AFS(American Field Service) student exchange program from Malaysia to Yellowknife,Canada
                         </p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
