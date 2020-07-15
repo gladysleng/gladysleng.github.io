@@ -13,28 +13,11 @@ import Skills from './contents/Skills';
 import Contact from './contents/Contact';
 
 function App() {
-  const [windowDimension, setWindowDimension] = useState(null);
-
-  useEffect(() => {
-    setWindowDimension(window.innerWidth);
-  }, []);
-
-  useEffect(() => {
-    function handleResize() {
-      setWindowDimension(window.innerWidth);
-    }
-
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
-
-  const isMobile = windowDimension <= 640;
-
   return (
     <Router>
       <div className="App">
         <Navbar />
-        <Route exact path="/home">
+        <Route exact path="/">
           <Home />
         </Route>
         <Route path="/about">
