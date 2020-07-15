@@ -1,8 +1,8 @@
 {
-  "name": "yinleng",
+  "name": "portfolio_website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://gladysleng.github.io/portfolio_website/",
+  "homepage": "https://gladysleng.github.io/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.29",
     "@fortawesome/free-regular-svg-icons": "^5.13.1",
