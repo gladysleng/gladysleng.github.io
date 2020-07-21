@@ -17,7 +17,7 @@ function App() {
     <Router>
       <div className="App">
         <Navbar />
-        <Route exact path="/portfolio_website/">
+        <Route exact path="/">
           <Home />
         </Route>
         <Route path="/about">
