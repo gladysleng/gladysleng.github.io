@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Typical from 'react-typical';
-import YinResume from '../YinResume.pdf';
+import YinLengResume from '../YinLengResume.pdf';
 import styled from "styled-components";
 
 class Home extends Component {
@@ -31,7 +31,7 @@ class Home extends Component {
                         ]}
                     />
                 </span>
-                    <a href={YinResume} target="_blank" rel="noopener noreferrer" download>  
+                    <a href={YinLengResume} target="_blank" rel="noopener noreferrer" download>  
                         <Button>
                             Download CV{' '}
                             <i className="fa fa-download" />
