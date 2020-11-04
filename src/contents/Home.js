@@ -22,7 +22,7 @@ class Home extends Component {
                         loop={Infinity}
                         wrapper="b"
                         steps={[
-                            'a fresh grad 🎓   from Carleton University ',
+                            'Computer Science graduate 🎓   from Carleton University ',
                             700,
                             'a software developer 👩‍💻 ',
                             700,
